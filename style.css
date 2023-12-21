@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body, html{
+    background-color: #5175AD;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: #DAEAFF;
+    
+}
+
+.main_header{
+    width: 80%;
+    height: 100%;
+    background-color: #39547f;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #DAEAFF;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+th{
+    background-color: #5175AD;
+}
+
+td{
+    background-color: #5175AD;
+    border: 2px double #2e4468;
+}
+
+.table:nth-child(2){
+    width: 1300px;
+}
+
+h1{
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+h2{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu{
+    font-size: 24px;
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    height: 100%;
+    background-color: #466494;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.basic_info{
+    display: flex;
+    text-align: left;
+    font-size: 24px;
+    margin: 20px;
+    padding: 20px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+.table{
+    margin: auto;
+    font-size: 24px;
+    border: 2px double #2e4468;
+}
