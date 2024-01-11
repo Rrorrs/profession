@@ -4,13 +4,16 @@ body, html{
     background-color: #5175AD;
     padding: 0;
     margin: 0;
-    font-family: 'PT Sans', sans-serif;
     color: #DAEAFF;
     
 }
 
+header{
+    margin-top: 20px;
+}
+
 .main_header{
-    width: 80%;
+    width: 90%;
     height: 100%;
     background-color: #39547f;
     display: flex;
@@ -27,9 +30,12 @@ a{
     padding: 0;
 }
 
+.text_info{
+    text-align: left;
+}
+
 p{
     margin: 20px;
-    text-align: center;
     font-size: 24px;
 }
 
@@ -43,7 +49,7 @@ td{
 }
 
 .table:nth-child(2){
-    width: 1300px;
+    width: 90%;
 }
 
 h1{
@@ -55,6 +61,7 @@ h1{
 h2{
     margin: 0 auto;
     padding: 20px;
+
 }
 
 .menu{
@@ -63,17 +70,21 @@ h2{
 }
 
 main{
-    width: 80%;
+    width: 90%;
     height: 100%;
     background-color: #466494;
     margin: 0 auto;
     padding-top: 40px;
+    text-align: center;
+}
+
+.main_index{
     font-family: 'PT Sans', sans-serif;
+    text-align: left;
 }
 
 .basic_info{
     display: flex;
-    text-align: left;
     font-size: 24px;
     margin: 20px;
     padding: 20px;
